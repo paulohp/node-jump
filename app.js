@@ -7,6 +7,7 @@ var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
   , http = require('http')
+  , fs = require('fs')
   , path = require('path');
 
 var app = express();
@@ -29,7 +30,17 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 app.get('/users', user.list);
-
+app.get('/form', function(req, res){
+  fs.readFile('./form.html', function(error, content){
+    if(error){
+      res.writeHead(500);
+      res.end();
+    }else{
+      res.writeHead(200,{'Content-Type':'text/html'});
+      res.end(content, 'utf-8')
+    }
+  });
+});
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
