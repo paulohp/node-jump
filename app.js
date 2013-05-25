@@ -43,13 +43,13 @@ app.get('/form', function(req, res){
   });
 });
 
-app.post('/signup', function(req, res){
+app.post('/signup', function(req, res) {
   var username = req.body.username;
   var password = req.body.password;
-  User.addUser(username, password, function(err, user){
-    if(err) throw err;
-    res.redirect('/form')
-  })
+  User.addUser(username, password, function(err, user) {
+    if (err) throw err;
+    res.redirect('/form');
+  }); 
 });
 
 http.createServer(app).listen(app.get('port'), function(){
