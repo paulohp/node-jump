@@ -1,0 +1,1267 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'restgen',
+1 verbose cli   '-g' ]
+2 info using npm@1.1.36
+3 info using node@v0.8.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose config file C:\Users\Paulo Henrique\.npmrc
+6 verbose config file C:\Program Files\nodejs\etc\npmrc
+7 verbose config file C:\Program Files\nodejs\node_modules\npm\npmrc
+8 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm\package.json
+9 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm\package.json
+10 verbose cache add [ 'restgen', null ]
+11 silly cache add name=undefined spec="restgen" args=["restgen",null]
+12 verbose parsed url { pathname: 'restgen', path: 'restgen', href: 'restgen' }
+13 silly lockFile 97c4a972-restgen restgen
+14 verbose lock restgen C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\97c4a972-restgen.lock
+15 silly lockFile 97c4a972-restgen restgen
+16 verbose addNamed [ 'restgen', '' ]
+17 verbose addNamed [ null, '' ]
+18 silly lockFile 691f20f9-restgen restgen@
+19 verbose lock restgen@ C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\691f20f9-restgen.lock
+20 silly addNameRange { name: 'restgen', range: '', hasData: false }
+21 verbose url raw restgen
+22 verbose url resolving [ 'https://registry.npmjs.org/', './restgen' ]
+23 verbose url resolved https://registry.npmjs.org/restgen
+24 info retry registry request attempt 1 at 18:21:09
+25 http GET https://registry.npmjs.org/restgen
+26 http 200 https://registry.npmjs.org/restgen
+27 silly registry.get cb [ 200,
+27 silly registry.get   { vary: 'Accept',
+27 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+27 silly registry.get     etag: '"2N8I499K2NTQC0JISAU9FN7F4"',
+27 silly registry.get     date: 'Sat, 25 May 2013 21:21:13 GMT',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'content-length': '19246' } ]
+28 silly addNameRange number 2 { name: 'restgen', range: '', hasData: true }
+29 silly addNameRange versions [ 'restgen', [ '1.0.0', '1.0.1' ] ]
+30 verbose addNamed [ 'restgen', '1.0.1' ]
+31 verbose addNamed [ '1.0.1', '1.0.1' ]
+32 silly lockFile cc9c0211-restgen-1-0-1 restgen@1.0.1
+33 verbose lock restgen@1.0.1 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cc9c0211-restgen-1-0-1.lock
+34 silly lockFile e584a993-js-org-restgen-restgen-1-0-1-tgz https://registry.npmjs.org/restgen/-/restgen-1.0.1.tgz
+35 verbose lock https://registry.npmjs.org/restgen/-/restgen-1.0.1.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\e584a993-js-org-restgen-restgen-1-0-1-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/restgen/-/restgen-1.0.1.tgz',
+36 verbose addRemoteTarball   '366bfb64549f7c0a60d2c5e4cf795d5432e3dfe3' ]
+37 info retry fetch attempt 1 at 18:21:13
+38 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516873296-0.9394000992178917\tmp.tgz
+39 http GET https://registry.npmjs.org/restgen/-/restgen-1.0.1.tgz
+40 http 200 https://registry.npmjs.org/restgen/-/restgen-1.0.1.tgz
+41 silly shasum updated bytes 11120
+42 info shasum 366bfb64549f7c0a60d2c5e4cf795d5432e3dfe3
+42 info shasum C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516873296-0.9394000992178917\tmp.tgz
+43 verbose tar unpack C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516873296-0.9394000992178917\tmp.tgz
+44 silly lockFile 77aed252-73296-0-9394000992178917-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516873296-0.9394000992178917\package
+45 verbose lock C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516873296-0.9394000992178917\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\77aed252-73296-0-9394000992178917-package.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm extractEntry bin/restgen
+51 silly gunzTarPerm extractEntry lib/basecontroller.js
+52 silly gunzTarPerm extractEntry lib/baseobject.js
+53 silly gunzTarPerm extractEntry lib/resterrors.js
+54 silly gunzTarPerm extractEntry lib/restgen.js
+55 silly gunzTarPerm extractEntry lib/routes.js
+56 silly gunzTarPerm extractEntry lib/commands/generate.js
+57 silly gunzTarPerm extractEntry lib/commands/new.js
+58 silly gunzTarPerm extractEntry lib/generators/controller.js
+59 silly gunzTarPerm extractEntry lib/generators/index.js
+60 silly gunzTarPerm extractEntry lib/generators/model.js
+61 silly gunzTarPerm extractEntry lib/generators/route.js
+62 silly gunzTarPerm extractEntry lib/templates/create/Jakefile.js.ejs
+63 silly gunzTarPerm extractEntry lib/templates/create/app.js.ejs
+64 silly gunzTarPerm extractEntry lib/templates/create/package.json.ejs
+65 silly gunzTarPerm extractEntry lib/templates/create/readme.md.ejs
+66 silly gunzTarPerm extractEntry lib/templates/create/views/layout.jade.ejs
+67 silly gunzTarPerm extractEntry lib/templates/create/views/restError/500.jade.ejs
+68 silly gunzTarPerm extractEntry lib/templates/create/views/restError/restError.jade.ejs
+69 silly gunzTarPerm extractEntry lib/templates/generate/controller.js.ejs
+70 silly gunzTarPerm extractEntry lib/templates/generate/model.js.ejs
+71 silly gunzTarPerm extractEntry lib/templates/generate/route.js.ejs
+72 silly gunzTarPerm extractEntry lib/util/appDirs.js
+73 silly gunzTarPerm extractEntry lib/util/fs-promised.js
+74 silly gunzTarPerm extractEntry lib/util/inflector.js
+75 silly gunzTarPerm extractEntry lib/util/message.js
+76 silly gunzTarPerm extractEntry lib/util/parseGeneratorCommand.js
+77 silly gunzTarPerm extractEntry lib/util/promisify.js
+78 silly gunzTarPerm extractEntry lib/util/template.js
+79 silly gunzTarPerm extractEntry tests/unit/errorMapper.test.js
+80 silly gunzTarPerm extractEntry tests/unit/errors.test.js
+81 verbose read json C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516873296-0.9394000992178917\package\package.json
+82 silly lockFile 77aed252-73296-0-9394000992178917-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516873296-0.9394000992178917\package
+83 verbose from cache C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516873296-0.9394000992178917\package\package.json
+84 verbose tar pack [ 'C:\\Users\\Paulo Henrique\\AppData\\Roaming\\npm-cache\\restgen\\1.0.1\\package.tgz',
+84 verbose tar pack   'C:\\Users\\PAULOH~1\\AppData\\Local\\Temp\\npm-3796\\1369516873296-0.9394000992178917\\package' ]
+85 verbose tarball C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package.tgz
+86 verbose folder C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516873296-0.9394000992178917\package
+87 silly lockFile ccc7360e--cache-restgen-1-0-1-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package.tgz
+88 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ccc7360e--cache-restgen-1-0-1-package-tgz.lock
+89 silly lockFile ccc7360e--cache-restgen-1-0-1-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package.tgz
+90 silly lockFile 6af6f170--npm-cache-restgen-1-0-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package
+91 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\6af6f170--npm-cache-restgen-1-0-1-package.lock
+92 silly lockFile 6af6f170--npm-cache-restgen-1-0-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package
+93 verbose tar unpack C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package.tgz
+94 silly lockFile 6af6f170--npm-cache-restgen-1-0-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package
+95 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\6af6f170--npm-cache-restgen-1-0-1-package.lock
+96 silly gunzTarPerm modes [ '755', '644' ]
+97 silly gunzTarPerm extractEntry package.json
+98 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+99 silly gunzTarPerm extractEntry .npmignore
+100 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+101 silly gunzTarPerm extractEntry README.md
+102 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+103 silly gunzTarPerm extractEntry bin/restgen
+104 silly gunzTarPerm modified mode [ 'bin/restgen', 438, 420 ]
+105 silly gunzTarPerm extractEntry lib/basecontroller.js
+106 silly gunzTarPerm modified mode [ 'lib/basecontroller.js', 438, 420 ]
+107 silly gunzTarPerm extractEntry lib/baseobject.js
+108 silly gunzTarPerm modified mode [ 'lib/baseobject.js', 438, 420 ]
+109 silly gunzTarPerm extractEntry lib/resterrors.js
+110 silly gunzTarPerm modified mode [ 'lib/resterrors.js', 438, 420 ]
+111 silly gunzTarPerm extractEntry lib/restgen.js
+112 silly gunzTarPerm modified mode [ 'lib/restgen.js', 438, 420 ]
+113 silly gunzTarPerm extractEntry lib/routes.js
+114 silly gunzTarPerm modified mode [ 'lib/routes.js', 438, 420 ]
+115 silly gunzTarPerm extractEntry lib/commands/generate.js
+116 silly gunzTarPerm modified mode [ 'lib/commands/generate.js', 438, 420 ]
+117 silly gunzTarPerm extractEntry lib/commands/new.js
+118 silly gunzTarPerm modified mode [ 'lib/commands/new.js', 438, 420 ]
+119 silly gunzTarPerm extractEntry lib/generators/controller.js
+120 silly gunzTarPerm modified mode [ 'lib/generators/controller.js', 438, 420 ]
+121 silly gunzTarPerm extractEntry lib/generators/index.js
+122 silly gunzTarPerm modified mode [ 'lib/generators/index.js', 438, 420 ]
+123 silly gunzTarPerm extractEntry lib/generators/model.js
+124 silly gunzTarPerm modified mode [ 'lib/generators/model.js', 438, 420 ]
+125 silly gunzTarPerm extractEntry lib/generators/route.js
+126 silly gunzTarPerm modified mode [ 'lib/generators/route.js', 438, 420 ]
+127 silly gunzTarPerm extractEntry lib/templates/create/app.js.ejs
+128 silly gunzTarPerm modified mode [ 'lib/templates/create/app.js.ejs', 438, 420 ]
+129 silly gunzTarPerm extractEntry lib/templates/create/Jakefile.js.ejs
+130 silly gunzTarPerm modified mode [ 'lib/templates/create/Jakefile.js.ejs', 438, 420 ]
+131 silly gunzTarPerm extractEntry lib/templates/create/package.json.ejs
+132 silly gunzTarPerm modified mode [ 'lib/templates/create/package.json.ejs', 438, 420 ]
+133 silly gunzTarPerm extractEntry lib/templates/create/readme.md.ejs
+134 silly gunzTarPerm modified mode [ 'lib/templates/create/readme.md.ejs', 438, 420 ]
+135 silly gunzTarPerm extractEntry lib/templates/create/views/layout.jade.ejs
+136 silly gunzTarPerm modified mode [ 'lib/templates/create/views/layout.jade.ejs', 438, 420 ]
+137 silly gunzTarPerm extractEntry lib/templates/create/views/restError/500.jade.ejs
+138 silly gunzTarPerm modified mode [ 'lib/templates/create/views/restError/500.jade.ejs', 438, 420 ]
+139 silly gunzTarPerm extractEntry lib/templates/create/views/restError/restError.jade.ejs
+140 silly gunzTarPerm modified mode [ 'lib/templates/create/views/restError/restError.jade.ejs',
+140 silly gunzTarPerm   438,
+140 silly gunzTarPerm   420 ]
+141 silly gunzTarPerm extractEntry lib/templates/generate/controller.js.ejs
+142 silly gunzTarPerm modified mode [ 'lib/templates/generate/controller.js.ejs', 438, 420 ]
+143 silly gunzTarPerm extractEntry lib/templates/generate/model.js.ejs
+144 silly gunzTarPerm modified mode [ 'lib/templates/generate/model.js.ejs', 438, 420 ]
+145 silly gunzTarPerm extractEntry lib/templates/generate/route.js.ejs
+146 silly gunzTarPerm modified mode [ 'lib/templates/generate/route.js.ejs', 438, 420 ]
+147 silly gunzTarPerm extractEntry lib/util/appDirs.js
+148 silly gunzTarPerm modified mode [ 'lib/util/appDirs.js', 438, 420 ]
+149 silly gunzTarPerm extractEntry lib/util/fs-promised.js
+150 silly gunzTarPerm modified mode [ 'lib/util/fs-promised.js', 438, 420 ]
+151 silly gunzTarPerm extractEntry lib/util/inflector.js
+152 silly gunzTarPerm modified mode [ 'lib/util/inflector.js', 438, 420 ]
+153 silly gunzTarPerm extractEntry lib/util/message.js
+154 silly gunzTarPerm modified mode [ 'lib/util/message.js', 438, 420 ]
+155 silly gunzTarPerm extractEntry lib/util/parseGeneratorCommand.js
+156 silly gunzTarPerm modified mode [ 'lib/util/parseGeneratorCommand.js', 438, 420 ]
+157 silly gunzTarPerm extractEntry lib/util/promisify.js
+158 silly gunzTarPerm modified mode [ 'lib/util/promisify.js', 438, 420 ]
+159 silly gunzTarPerm extractEntry lib/util/template.js
+160 silly gunzTarPerm modified mode [ 'lib/util/template.js', 438, 420 ]
+161 silly gunzTarPerm extractEntry tests/unit/errorMapper.test.js
+162 silly gunzTarPerm modified mode [ 'tests/unit/errorMapper.test.js', 438, 420 ]
+163 silly gunzTarPerm extractEntry tests/unit/errors.test.js
+164 silly gunzTarPerm modified mode [ 'tests/unit/errors.test.js', 438, 420 ]
+165 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package\package.json
+166 silly lockFile 6af6f170--npm-cache-restgen-1-0-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package
+167 silly shasum updated bytes 11081
+168 info shasum 41241c472185d8a678963d2cef3d397e02e13139
+168 info shasum C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package.tgz
+169 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package\package.json
+170 verbose chmod C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package.tgz 644
+171 silly chown skipping for windows C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package.tgz
+172 silly lockFile e584a993-js-org-restgen-restgen-1-0-1-tgz https://registry.npmjs.org/restgen/-/restgen-1.0.1.tgz
+173 silly lockFile cc9c0211-restgen-1-0-1 restgen@1.0.1
+174 silly lockFile 691f20f9-restgen restgen@
+175 silly resolved [ { name: 'restgen',
+175 silly resolved     preferGlobal: true,
+175 silly resolved     version: '1.0.1',
+175 silly resolved     author: { name: 'Alex Ferreira', email: 'dev@alexferreira.eti.br' },
+175 silly resolved     homepage: 'https://github.com/alexferreira/restgen',
+175 silly resolved     _id: 'restgen@1.0.1',
+175 silly resolved     _from: 'restgen',
+175 silly resolved     description: 'A micro framework that helps you quickly build RESTful webservice',
+175 silly resolved     readmeFilename: 'README.md',
+175 silly resolved     bin: { restgen: './bin/restgen' },
+175 silly resolved     main: './lib/restgen.js',
+175 silly resolved     repository:
+175 silly resolved      { type: 'git',
+175 silly resolved        url: 'https://github.com/alexferreira/restgen.git' },
+175 silly resolved     bugs:
+175 silly resolved      { email: 'dev@alexferreira.eti.br',
+175 silly resolved        url: 'https://github.com/alexferreira/restgen/issues' },
+175 silly resolved     keywords:
+175 silly resolved      [ 'RESTful',
+175 silly resolved        'rest',
+175 silly resolved        'json',
+175 silly resolved        'api',
+175 silly resolved        'service',
+175 silly resolved        'rest-template',
+175 silly resolved        'webservice',
+175 silly resolved        'express',
+175 silly resolved        'mongoose' ],
+175 silly resolved     dependencies:
+175 silly resolved      { commander: 'https://github.com/alexferreira/commander.js/tarball/master',
+175 silly resolved        'cli-color': '0.2.2',
+175 silly resolved        fleck: '0.5.1',
+175 silly resolved        'rsvp-that-works': '1.2.0',
+175 silly resolved        'fs-extra': '0.6.1',
+175 silly resolved        jake: 'latest',
+175 silly resolved        nodeunit: 'latest',
+175 silly resolved        express: 'latest',
+175 silly resolved        mongoose: 'latest',
+175 silly resolved        jade: 'latest',
+175 silly resolved        ejs: 'latest' },
+175 silly resolved     directories: { test: './tests' },
+175 silly resolved     license: 'MIT',
+175 silly resolved     engines: { node: '>=0.8.x || >=0.10.x' },
+175 silly resolved     readme: 'restGen\n=======\n\nThe goal of restgen is to  provide a micro framework that helps you to write a RESTful webservice using NodeJs, Express, Mongoose (MongoDB).\n\n## Features\n\nThis is the first release, but so far given a mongoose model object it will:\n\n * Handle \'BadRequest\', \'NotFound\' and \'500\' errors in a nice clean way.\n * Tool to build project skelleton for you\n * Tool to build empty models for you\n * Auto-generate controllers\n * Auto-generate routes\n * Inflection Library\n * Accept header based response rendering\n \n## Installation\n\n    npm install restgen -g\n\n### Dependancies\n\nSo far this is dependant on:\n\n  * Nodejs >= 0.8.0\n  * Mongoose 3.x\n  * Express 3.x\n  * Node-Jake 0.5.15\n  * NodeUnit\n  * Jade\n  * EJS\n  * Commander\n  * Fleck\n\n## Setup\n\nA tool is provided to auto-generate a project structure for you.  You can use it by executing the following:\n\n    restgen new hello\n\nIt will generate a project structure for you like this:\n\n    /controllers\n    /controllers/{modelName}.js\n    /models\n    /models/{modelName}.js\n    /routes\n    /routes/{modelName}.js\n    app.js\n\n### Creating a Model\n\nModels are just standard Mongoose models, you can create a new model by creating a javascript file inside of the \'models\' folder.  You need to name the file, and the export the same.  Your object will get a Mongoose object passed to it, you use that to create your model.\n\nYou can create an empty model by typing the following from the root of the project:\n\n    restgen generate -m user name:String email:String\n\nthe file will be created in the model directory\n\nHere\'s an example of how you\'d define one:\n\n    module.exports.user = function (mongoose) {\n      var Schema = mongoose.Schema;\n\n      /* schema for user */\n      userSchema = new Schema ({ \n        name: String,\n        email: String\n      }, { versionKey: false });\n\n      /* methods for userSchema */\n\n      // userSchema.method({\n      //   example: function () {\n      //     return true;\n      //   }\n      // });\n\n      return mongoose.model(\'user\', userSchema);\n    };\n\n\n### Creating a Controller\n\nYou don\'t have to do anything to create a basic controller, one that provides show, index, create, update, and destroy is reflectively created for you at runtime.\n\nYou can create or extend the controller by typing the following from the root of the project:\n\n    restgen generate -c user\n\nthe file will be created in the controller directory\n\nHere\'s an example of how you\'d define one:\n\n    module.exports.userController = function(baseController, restgen){\n        return baseController;\n    }\n\nFrom this basic framework a controller is dynamically built for each model object that implements:\n\n\n  * index()\n  * new\n  * create(json)\n  * show(id)\n  * update(id, json)\n  * remove(id)\n\nYou can extend the base functionality by defining your controller something like this:\n\n    module.exports.userController = function(baseController, restgen){\n        //Example of how to extend the base controller if you need to...\n        var userController = baseController.extend({\n            toString: function(){\n                // calls parent "toString" method without arguments\n                return this._super(extendedController, "toString") + this.name;\n            }\n        });\n\n        return userController;\n    };\n\n### Routes\n\nThe default routes that get added to your express app are:\n\n| options | object name | file |\n| --------|-------------|------|\n|\tGET\t   |    /{modelPluralName}/             \t\t |\t- Renders Index view of all entities in the colleciton\n|\tGET    | \t/{modelPluralName}/new                   | \t- Renders New view to create a new entity\n|\tGET    | \t/{modelPluralName}.json                  |\t- Sends a json list of all entities in the colleciton\n|\tGET    | \t/{modelPluralName}/{id}                  |\t- Renders Show view of a specified entity\n|\tGET    | \t/{modelPluralName}/{id}.json             |\t- Sends json representation of a specified entity\n|\tPOST   | \t/{modelPluralName}/ {FormData}           |\t- Create a new record using {FormData} passed in\n|\tPOST   | \t/{modelPluralName}.json              \t |\t- Create a new record using the {JSON} passed in\n|\tPUT    | \t/{modelPluralName}/{id} {FormData}       |\t- Updates a record using the {FormData} passed in\n|\tPUT    | \t/{modelPluralName}/{id}.json             |\t- Updates a record using the {JSON} passed in\n|\tDELETE | \t/{modelPluralName}/{id}                  |\t- Deletes the specified record\n\nYou can extend the patterns by defining routes for your entity by typing the following from the root of the project:\n\n    module.exports.casaRoutes = function(casaController, app, restMvc){\n      \n      app.get(\'/casa.:format?\', function(request, response, next) {\n\n        console.log(\'Overriden list route\');\n\n        casaController.index(function(err, results) {\n          if (err)\n            next(new Error(\'Internal Server Error: see logs for details: \' +  err), request, response);\n          else {\n            if (request.params.format){\n              if (request.params.format.toLowerCase() == \'json\') {\n                  response.send(results.map(function(instance) {\n                      return instance.toObject();\n                  }));\n              }else\n                next(restMvc.RestError.BadRequest.create(\'The \\\'\' + request.params.format + \'\\\' format is not supported at this time.\'), request, response);\n            }\n            else {\n              response.render(controller.name, { collection: results.map(function(instance) {\n                return instance.toObject();\n              })});\n            }\n          }\n        });\n      })\n    };\n\n## Customize RestErrors\n\nSo far only two errors are handled, 400 and 404.  If you want to extend this, it is very easy to do.  Just do something like this in your app.js file.\n\n    // Add a custom rest error for Forbidden\n    restMVC.RestError.Forbidden = restMVC.RestError.BaseRestError.extend({\n        name: \'Forbidden\',\n        title: \'Forbidden\',\n        description: \'Access denied.\',\n        httpStatus: 403\n    })\n\nYou can just let the default error template generate the html response, or you can define a customer one like so:\n\n    // Add a custom handler for Forbidden\n    restMVC.ErrorMapper[\'Forbidden\'] = function(error, request, response){\n        response.render(\'resterror.jade\', {\n            status: error.httpStatus,\n            error: error\n        });\n    }\n\n\n## License and Copyright\n\n[MIT Style License](http://opensource.org/licenses/MIT)\n\nCopyright &copy; 2013 [Alex Ferreira](http://www.alexferreira.eti.br)',
+175 silly resolved     dist: { shasum: '41241c472185d8a678963d2cef3d397e02e13139' } } ]
+176 info install restgen@1.0.1 into C:\Users\Paulo Henrique\AppData\Roaming\npm
+177 info installOne restgen@1.0.1
+178 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package\package.json
+179 info C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen unbuild
+180 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen\package.json
+181 verbose tar unpack C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\restgen\1.0.1\package.tgz
+182 silly lockFile bf2123a6-Roaming-npm-node-modules-restgen C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen
+183 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\bf2123a6-Roaming-npm-node-modules-restgen.lock
+184 silly gunzTarPerm modes [ '755', '644' ]
+185 silly gunzTarPerm extractEntry package.json
+186 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+187 silly gunzTarPerm extractEntry .npmignore
+188 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+189 silly gunzTarPerm extractEntry README.md
+190 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+191 silly gunzTarPerm extractEntry bin/restgen
+192 silly gunzTarPerm modified mode [ 'bin/restgen', 438, 420 ]
+193 silly gunzTarPerm extractEntry lib/basecontroller.js
+194 silly gunzTarPerm modified mode [ 'lib/basecontroller.js', 438, 420 ]
+195 silly gunzTarPerm extractEntry lib/baseobject.js
+196 silly gunzTarPerm modified mode [ 'lib/baseobject.js', 438, 420 ]
+197 silly gunzTarPerm extractEntry lib/resterrors.js
+198 silly gunzTarPerm modified mode [ 'lib/resterrors.js', 438, 420 ]
+199 silly gunzTarPerm extractEntry lib/restgen.js
+200 silly gunzTarPerm modified mode [ 'lib/restgen.js', 438, 420 ]
+201 silly gunzTarPerm extractEntry lib/routes.js
+202 silly gunzTarPerm modified mode [ 'lib/routes.js', 438, 420 ]
+203 silly gunzTarPerm extractEntry lib/commands/generate.js
+204 silly gunzTarPerm modified mode [ 'lib/commands/generate.js', 438, 420 ]
+205 silly gunzTarPerm extractEntry lib/commands/new.js
+206 silly gunzTarPerm modified mode [ 'lib/commands/new.js', 438, 420 ]
+207 silly gunzTarPerm extractEntry lib/generators/controller.js
+208 silly gunzTarPerm modified mode [ 'lib/generators/controller.js', 438, 420 ]
+209 silly gunzTarPerm extractEntry lib/generators/index.js
+210 silly gunzTarPerm modified mode [ 'lib/generators/index.js', 438, 420 ]
+211 silly gunzTarPerm extractEntry lib/generators/model.js
+212 silly gunzTarPerm modified mode [ 'lib/generators/model.js', 438, 420 ]
+213 silly gunzTarPerm extractEntry lib/generators/route.js
+214 silly gunzTarPerm modified mode [ 'lib/generators/route.js', 438, 420 ]
+215 silly gunzTarPerm extractEntry lib/templates/create/app.js.ejs
+216 silly gunzTarPerm modified mode [ 'lib/templates/create/app.js.ejs', 438, 420 ]
+217 silly gunzTarPerm extractEntry lib/templates/create/Jakefile.js.ejs
+218 silly gunzTarPerm modified mode [ 'lib/templates/create/Jakefile.js.ejs', 438, 420 ]
+219 silly gunzTarPerm extractEntry lib/templates/create/package.json.ejs
+220 silly gunzTarPerm modified mode [ 'lib/templates/create/package.json.ejs', 438, 420 ]
+221 silly gunzTarPerm extractEntry lib/templates/create/readme.md.ejs
+222 silly gunzTarPerm modified mode [ 'lib/templates/create/readme.md.ejs', 438, 420 ]
+223 silly gunzTarPerm extractEntry lib/templates/create/views/layout.jade.ejs
+224 silly gunzTarPerm modified mode [ 'lib/templates/create/views/layout.jade.ejs', 438, 420 ]
+225 silly gunzTarPerm extractEntry lib/templates/create/views/restError/500.jade.ejs
+226 silly gunzTarPerm modified mode [ 'lib/templates/create/views/restError/500.jade.ejs', 438, 420 ]
+227 silly gunzTarPerm extractEntry lib/templates/create/views/restError/restError.jade.ejs
+228 silly gunzTarPerm modified mode [ 'lib/templates/create/views/restError/restError.jade.ejs',
+228 silly gunzTarPerm   438,
+228 silly gunzTarPerm   420 ]
+229 silly gunzTarPerm extractEntry lib/templates/generate/controller.js.ejs
+230 silly gunzTarPerm modified mode [ 'lib/templates/generate/controller.js.ejs', 438, 420 ]
+231 silly gunzTarPerm extractEntry lib/templates/generate/model.js.ejs
+232 silly gunzTarPerm modified mode [ 'lib/templates/generate/model.js.ejs', 438, 420 ]
+233 silly gunzTarPerm extractEntry lib/templates/generate/route.js.ejs
+234 silly gunzTarPerm modified mode [ 'lib/templates/generate/route.js.ejs', 438, 420 ]
+235 silly gunzTarPerm extractEntry lib/util/appDirs.js
+236 silly gunzTarPerm modified mode [ 'lib/util/appDirs.js', 438, 420 ]
+237 silly gunzTarPerm extractEntry lib/util/fs-promised.js
+238 silly gunzTarPerm modified mode [ 'lib/util/fs-promised.js', 438, 420 ]
+239 silly gunzTarPerm extractEntry lib/util/inflector.js
+240 silly gunzTarPerm modified mode [ 'lib/util/inflector.js', 438, 420 ]
+241 silly gunzTarPerm extractEntry lib/util/message.js
+242 silly gunzTarPerm modified mode [ 'lib/util/message.js', 438, 420 ]
+243 silly gunzTarPerm extractEntry lib/util/parseGeneratorCommand.js
+244 silly gunzTarPerm modified mode [ 'lib/util/parseGeneratorCommand.js', 438, 420 ]
+245 silly gunzTarPerm extractEntry lib/util/promisify.js
+246 silly gunzTarPerm modified mode [ 'lib/util/promisify.js', 438, 420 ]
+247 silly gunzTarPerm extractEntry lib/util/template.js
+248 silly gunzTarPerm modified mode [ 'lib/util/template.js', 438, 420 ]
+249 silly gunzTarPerm extractEntry tests/unit/errorMapper.test.js
+250 silly gunzTarPerm modified mode [ 'tests/unit/errorMapper.test.js', 438, 420 ]
+251 silly gunzTarPerm extractEntry tests/unit/errors.test.js
+252 silly gunzTarPerm modified mode [ 'tests/unit/errors.test.js', 438, 420 ]
+253 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen\package.json
+254 silly lockFile bf2123a6-Roaming-npm-node-modules-restgen C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen
+255 info preinstall restgen@1.0.1
+256 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen\package.json
+257 verbose readDependencies using package.json deps
+258 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen\package.json
+259 verbose readDependencies using package.json deps
+260 verbose cache add [ 'commander@https://github.com/alexferreira/commander.js/tarball/master',
+260 verbose cache add   null ]
+261 silly cache add name=undefined spec="commander@https://github.com/alexferreira/commander.js/tarball/master" args=["commander@https://github.com/alexferreira/commander.js/tarball/master",null]
+262 verbose parsed url { pathname: 'commander@https://github.com/alexferreira/commander.js/tarball/master',
+262 verbose parsed url   path: 'commander@https://github.com/alexferreira/commander.js/tarball/master',
+262 verbose parsed url   href: 'commander@https://github.com/alexferreira/commander.js/tarball/master' }
+263 silly cache add name="commander" spec="https://github.com/alexferreira/commander.js/tarball/master" args=["commander","https://github.com/alexferreira/commander.js/tarball/master"]
+264 verbose parsed url { protocol: 'https:',
+264 verbose parsed url   slashes: true,
+264 verbose parsed url   host: 'github.com',
+264 verbose parsed url   hostname: 'github.com',
+264 verbose parsed url   href: 'https://github.com/alexferreira/commander.js/tarball/master',
+264 verbose parsed url   pathname: '/alexferreira/commander.js/tarball/master',
+264 verbose parsed url   path: '/alexferreira/commander.js/tarball/master' }
+265 silly lockFile 70d7d29b-eira-commander-js-tarball-master https://github.com/alexferreira/commander.js/tarball/master
+266 verbose lock https://github.com/alexferreira/commander.js/tarball/master C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\70d7d29b-eira-commander-js-tarball-master.lock
+267 verbose cache add [ 'cli-color@0.2.2', null ]
+268 silly cache add name=undefined spec="cli-color@0.2.2" args=["cli-color@0.2.2",null]
+269 verbose parsed url { pathname: 'cli-color@0.2.2',
+269 verbose parsed url   path: 'cli-color@0.2.2',
+269 verbose parsed url   href: 'cli-color@0.2.2' }
+270 silly cache add name="cli-color" spec="0.2.2" args=["cli-color","0.2.2"]
+271 verbose parsed url { pathname: '0.2.2', path: '0.2.2', href: '0.2.2' }
+272 verbose addNamed [ 'cli-color', '0.2.2' ]
+273 verbose addNamed [ '0.2.2', '0.2.2' ]
+274 silly lockFile 39acd334-cli-color-0-2-2 cli-color@0.2.2
+275 verbose lock cli-color@0.2.2 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\39acd334-cli-color-0-2-2.lock
+276 verbose cache add [ 'fleck@0.5.1', null ]
+277 silly cache add name=undefined spec="fleck@0.5.1" args=["fleck@0.5.1",null]
+278 verbose parsed url { pathname: 'fleck@0.5.1',
+278 verbose parsed url   path: 'fleck@0.5.1',
+278 verbose parsed url   href: 'fleck@0.5.1' }
+279 silly cache add name="fleck" spec="0.5.1" args=["fleck","0.5.1"]
+280 verbose parsed url { pathname: '0.5.1', path: '0.5.1', href: '0.5.1' }
+281 verbose addNamed [ 'fleck', '0.5.1' ]
+282 verbose addNamed [ '0.5.1', '0.5.1' ]
+283 silly lockFile bddc979a-fleck-0-5-1 fleck@0.5.1
+284 verbose lock fleck@0.5.1 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\bddc979a-fleck-0-5-1.lock
+285 verbose cache add [ 'rsvp-that-works@1.2.0', null ]
+286 silly cache add name=undefined spec="rsvp-that-works@1.2.0" args=["rsvp-that-works@1.2.0",null]
+287 verbose parsed url { pathname: 'rsvp-that-works@1.2.0',
+287 verbose parsed url   path: 'rsvp-that-works@1.2.0',
+287 verbose parsed url   href: 'rsvp-that-works@1.2.0' }
+288 silly cache add name="rsvp-that-works" spec="1.2.0" args=["rsvp-that-works","1.2.0"]
+289 verbose parsed url { pathname: '1.2.0', path: '1.2.0', href: '1.2.0' }
+290 verbose addNamed [ 'rsvp-that-works', '1.2.0' ]
+291 verbose addNamed [ '1.2.0', '1.2.0' ]
+292 silly lockFile e3b7974e-rsvp-that-works-1-2-0 rsvp-that-works@1.2.0
+293 verbose lock rsvp-that-works@1.2.0 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\e3b7974e-rsvp-that-works-1-2-0.lock
+294 verbose cache add [ 'fs-extra@0.6.1', null ]
+295 silly cache add name=undefined spec="fs-extra@0.6.1" args=["fs-extra@0.6.1",null]
+296 verbose parsed url { pathname: 'fs-extra@0.6.1',
+296 verbose parsed url   path: 'fs-extra@0.6.1',
+296 verbose parsed url   href: 'fs-extra@0.6.1' }
+297 silly cache add name="fs-extra" spec="0.6.1" args=["fs-extra","0.6.1"]
+298 verbose parsed url { pathname: '0.6.1', path: '0.6.1', href: '0.6.1' }
+299 verbose addNamed [ 'fs-extra', '0.6.1' ]
+300 verbose addNamed [ '0.6.1', '0.6.1' ]
+301 silly lockFile afa365de-fs-extra-0-6-1 fs-extra@0.6.1
+302 verbose lock fs-extra@0.6.1 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\afa365de-fs-extra-0-6-1.lock
+303 verbose cache add [ 'jake@latest', null ]
+304 silly cache add name=undefined spec="jake@latest" args=["jake@latest",null]
+305 verbose parsed url { pathname: 'jake@latest',
+305 verbose parsed url   path: 'jake@latest',
+305 verbose parsed url   href: 'jake@latest' }
+306 silly cache add name="jake" spec="latest" args=["jake","latest"]
+307 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+308 verbose addNamed [ 'jake', 'latest' ]
+309 verbose addNamed [ null, null ]
+310 silly lockFile 0436e129-jake-latest jake@latest
+311 verbose lock jake@latest C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\0436e129-jake-latest.lock
+312 verbose cache add [ 'nodeunit@latest', null ]
+313 silly cache add name=undefined spec="nodeunit@latest" args=["nodeunit@latest",null]
+314 verbose parsed url { pathname: 'nodeunit@latest',
+314 verbose parsed url   path: 'nodeunit@latest',
+314 verbose parsed url   href: 'nodeunit@latest' }
+315 silly cache add name="nodeunit" spec="latest" args=["nodeunit","latest"]
+316 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+317 verbose addNamed [ 'nodeunit', 'latest' ]
+318 verbose addNamed [ null, null ]
+319 silly lockFile 6c7332a9-nodeunit-latest nodeunit@latest
+320 verbose lock nodeunit@latest C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\6c7332a9-nodeunit-latest.lock
+321 verbose cache add [ 'express@latest', null ]
+322 silly cache add name=undefined spec="express@latest" args=["express@latest",null]
+323 verbose parsed url { pathname: 'express@latest',
+323 verbose parsed url   path: 'express@latest',
+323 verbose parsed url   href: 'express@latest' }
+324 silly cache add name="express" spec="latest" args=["express","latest"]
+325 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+326 verbose addNamed [ 'express', 'latest' ]
+327 verbose addNamed [ null, null ]
+328 silly lockFile c30a01ab-express-latest express@latest
+329 verbose lock express@latest C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\c30a01ab-express-latest.lock
+330 verbose cache add [ 'mongoose@latest', null ]
+331 silly cache add name=undefined spec="mongoose@latest" args=["mongoose@latest",null]
+332 verbose parsed url { pathname: 'mongoose@latest',
+332 verbose parsed url   path: 'mongoose@latest',
+332 verbose parsed url   href: 'mongoose@latest' }
+333 silly cache add name="mongoose" spec="latest" args=["mongoose","latest"]
+334 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+335 verbose addNamed [ 'mongoose', 'latest' ]
+336 verbose addNamed [ null, null ]
+337 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+338 verbose lock mongoose@latest C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\73e949f4-mongoose-latest.lock
+339 verbose cache add [ 'jade@latest', null ]
+340 silly cache add name=undefined spec="jade@latest" args=["jade@latest",null]
+341 verbose parsed url { pathname: 'jade@latest',
+341 verbose parsed url   path: 'jade@latest',
+341 verbose parsed url   href: 'jade@latest' }
+342 silly cache add name="jade" spec="latest" args=["jade","latest"]
+343 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+344 verbose addNamed [ 'jade', 'latest' ]
+345 verbose addNamed [ null, null ]
+346 silly lockFile 50c7aeb0-jade-latest jade@latest
+347 verbose lock jade@latest C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\50c7aeb0-jade-latest.lock
+348 verbose cache add [ 'ejs@latest', null ]
+349 silly cache add name=undefined spec="ejs@latest" args=["ejs@latest",null]
+350 verbose parsed url { pathname: 'ejs@latest',
+350 verbose parsed url   path: 'ejs@latest',
+350 verbose parsed url   href: 'ejs@latest' }
+351 silly cache add name="ejs" spec="latest" args=["ejs","latest"]
+352 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+353 verbose addNamed [ 'ejs', 'latest' ]
+354 verbose addNamed [ null, null ]
+355 silly lockFile 171e9c95-ejs-latest ejs@latest
+356 verbose lock ejs@latest C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\171e9c95-ejs-latest.lock
+357 verbose addRemoteTarball [ 'https://github.com/alexferreira/commander.js/tarball/master',
+357 verbose addRemoteTarball   null ]
+358 info addNameTag [ 'express', 'latest' ]
+359 info addNameTag [ 'jake', 'latest' ]
+360 info addNameTag [ 'nodeunit', 'latest' ]
+361 info retry fetch attempt 1 at 18:21:17
+362 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516877839-0.7028526994399726\tmp.tgz
+363 info addNameTag [ 'jade', 'latest' ]
+364 verbose url raw cli-color/0.2.2
+365 verbose url resolving [ 'https://registry.npmjs.org/', './cli-color/0.2.2' ]
+366 verbose url resolved https://registry.npmjs.org/cli-color/0.2.2
+367 info retry registry request attempt 1 at 18:21:17
+368 http GET https://registry.npmjs.org/cli-color/0.2.2
+369 info addNameTag [ 'ejs', 'latest' ]
+370 verbose url raw fleck/0.5.1
+371 verbose url resolving [ 'https://registry.npmjs.org/', './fleck/0.5.1' ]
+372 verbose url resolved https://registry.npmjs.org/fleck/0.5.1
+373 info retry registry request attempt 1 at 18:21:17
+374 http GET https://registry.npmjs.org/fleck/0.5.1
+375 info addNameTag [ 'mongoose', 'latest' ]
+376 verbose url raw rsvp-that-works/1.2.0
+377 verbose url resolving [ 'https://registry.npmjs.org/', './rsvp-that-works/1.2.0' ]
+378 verbose url resolved https://registry.npmjs.org/rsvp-that-works/1.2.0
+379 info retry registry request attempt 1 at 18:21:17
+380 http GET https://registry.npmjs.org/rsvp-that-works/1.2.0
+381 verbose url raw fs-extra/0.6.1
+382 verbose url resolving [ 'https://registry.npmjs.org/', './fs-extra/0.6.1' ]
+383 verbose url resolved https://registry.npmjs.org/fs-extra/0.6.1
+384 info retry registry request attempt 1 at 18:21:17
+385 http GET https://registry.npmjs.org/fs-extra/0.6.1
+386 http GET https://github.com/alexferreira/commander.js/tarball/master
+387 verbose url raw mongoose
+388 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+389 verbose url resolved https://registry.npmjs.org/mongoose
+390 info retry registry request attempt 1 at 18:21:18
+391 http GET https://registry.npmjs.org/mongoose
+392 verbose url raw nodeunit
+393 verbose url resolving [ 'https://registry.npmjs.org/', './nodeunit' ]
+394 verbose url resolved https://registry.npmjs.org/nodeunit
+395 info retry registry request attempt 1 at 18:21:18
+396 verbose etag "75H19FXMH2P76WUQU1KN8XDJI"
+397 http GET https://registry.npmjs.org/nodeunit
+398 verbose url raw jade
+399 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+400 verbose url resolved https://registry.npmjs.org/jade
+401 info retry registry request attempt 1 at 18:21:18
+402 verbose etag "6LWO71D3VG58IJ8ZVGG3RTC3V"
+403 http GET https://registry.npmjs.org/jade
+404 verbose url raw jake
+405 verbose url resolving [ 'https://registry.npmjs.org/', './jake' ]
+406 verbose url resolved https://registry.npmjs.org/jake
+407 info retry registry request attempt 1 at 18:21:18
+408 verbose etag "1IC925VKKI4OARNP02A0ECAT5"
+409 http GET https://registry.npmjs.org/jake
+410 verbose url raw express
+411 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+412 verbose url resolved https://registry.npmjs.org/express
+413 info retry registry request attempt 1 at 18:21:18
+414 verbose etag "48FUGFYP731T9XUBXNMR6BKZM"
+415 http GET https://registry.npmjs.org/express
+416 verbose url raw ejs
+417 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+418 verbose url resolved https://registry.npmjs.org/ejs
+419 info retry registry request attempt 1 at 18:21:18
+420 verbose etag "NKXOSH1MM7N8H4BQA9H5T3NE"
+421 http GET https://registry.npmjs.org/ejs
+422 http 200 https://registry.npmjs.org/fleck/0.5.1
+423 silly registry.get cb [ 200,
+423 silly registry.get   { vary: 'Accept',
+423 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+423 silly registry.get     etag: '"227SH3WYKR8QPVN8V5KVQU945"',
+423 silly registry.get     date: 'Sat, 25 May 2013 21:21:20 GMT',
+423 silly registry.get     'content-type': 'application/json',
+423 silly registry.get     'content-length': '942' } ]
+424 silly lockFile aae9cb45--npmjs-org-fleck-fleck-0-5-1-tgz https://registry.npmjs.org/fleck/-/fleck-0.5.1.tgz
+425 verbose lock https://registry.npmjs.org/fleck/-/fleck-0.5.1.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\aae9cb45--npmjs-org-fleck-fleck-0-5-1-tgz.lock
+426 verbose addRemoteTarball [ 'https://registry.npmjs.org/fleck/-/fleck-0.5.1.tgz',
+426 verbose addRemoteTarball   '4d25e3c30eba2d8c0f3f0dae02554f0311ebf078' ]
+427 info retry fetch attempt 1 at 18:21:21
+428 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516881065-0.13471391331404448\tmp.tgz
+429 http GET https://registry.npmjs.org/fleck/-/fleck-0.5.1.tgz
+430 http 200 https://registry.npmjs.org/rsvp-that-works/1.2.0
+431 silly registry.get cb [ 200,
+431 silly registry.get   { vary: 'Accept',
+431 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+431 silly registry.get     etag: '"BYH9FTNHWRDF91EZMUO3YGLPK"',
+431 silly registry.get     date: 'Sat, 25 May 2013 21:21:20 GMT',
+431 silly registry.get     'content-type': 'application/json',
+431 silly registry.get     'content-length': '8177' } ]
+432 silly lockFile deb11b65--works-rsvp-that-works-1-2-0-tgz https://registry.npmjs.org/rsvp-that-works/-/rsvp-that-works-1.2.0.tgz
+433 verbose lock https://registry.npmjs.org/rsvp-that-works/-/rsvp-that-works-1.2.0.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\deb11b65--works-rsvp-that-works-1-2-0-tgz.lock
+434 verbose addRemoteTarball [ 'https://registry.npmjs.org/rsvp-that-works/-/rsvp-that-works-1.2.0.tgz',
+434 verbose addRemoteTarball   'ab15e2c43708fcbf6e1655b1f3813d2123bdace6' ]
+435 info retry fetch attempt 1 at 18:21:22
+436 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882547-0.6529387598857284\tmp.tgz
+437 http GET https://registry.npmjs.org/rsvp-that-works/-/rsvp-that-works-1.2.0.tgz
+438 http 200 https://registry.npmjs.org/fs-extra/0.6.1
+439 silly registry.get cb [ 200,
+439 silly registry.get   { vary: 'Accept',
+439 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+439 silly registry.get     etag: '"DTRT7R0XVY0EGT9QSKEIQVR5Y"',
+439 silly registry.get     date: 'Sat, 25 May 2013 21:21:20 GMT',
+439 silly registry.get     'content-type': 'application/json',
+439 silly registry.get     'content-length': '9076' } ]
+440 silly lockFile b5c4a2c7--org-fs-extra-fs-extra-0-6-1-tgz https://registry.npmjs.org/fs-extra/-/fs-extra-0.6.1.tgz
+441 verbose lock https://registry.npmjs.org/fs-extra/-/fs-extra-0.6.1.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\b5c4a2c7--org-fs-extra-fs-extra-0-6-1-tgz.lock
+442 verbose addRemoteTarball [ 'https://registry.npmjs.org/fs-extra/-/fs-extra-0.6.1.tgz',
+442 verbose addRemoteTarball   'bb4d0918ef7f6414e1a135cd68ebeee825e96ad1' ]
+443 info retry fetch attempt 1 at 18:21:22
+444 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882585-0.5496786842122674\tmp.tgz
+445 http GET https://registry.npmjs.org/fs-extra/-/fs-extra-0.6.1.tgz
+446 http 200 https://registry.npmjs.org/cli-color/0.2.2
+447 silly registry.get cb [ 200,
+447 silly registry.get   { vary: 'Accept',
+447 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+447 silly registry.get     etag: '"76TMUH96PZ8V63HKDFTF0A7H0"',
+447 silly registry.get     date: 'Sat, 25 May 2013 21:21:20 GMT',
+447 silly registry.get     'content-type': 'application/json',
+447 silly registry.get     'content-length': '37857' } ]
+448 silly lockFile 14a6cb30-rg-cli-color-cli-color-0-2-2-tgz https://registry.npmjs.org/cli-color/-/cli-color-0.2.2.tgz
+449 verbose lock https://registry.npmjs.org/cli-color/-/cli-color-0.2.2.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\14a6cb30-rg-cli-color-cli-color-0-2-2-tgz.lock
+450 verbose addRemoteTarball [ 'https://registry.npmjs.org/cli-color/-/cli-color-0.2.2.tgz',
+450 verbose addRemoteTarball   '2220dcbd5e8410e15c435946b6c8daa22e076741' ]
+451 info retry fetch attempt 1 at 18:21:23
+452 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516883852-0.7778162395115942\tmp.tgz
+453 http GET https://registry.npmjs.org/cli-color/-/cli-color-0.2.2.tgz
+454 http 304 https://registry.npmjs.org/jade
+455 silly registry.get cb [ 304,
+455 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+455 silly registry.get     etag: '"6LWO71D3VG58IJ8ZVGG3RTC3V"',
+455 silly registry.get     date: 'Sat, 25 May 2013 21:21:23 GMT',
+455 silly registry.get     'content-length': '0' } ]
+456 verbose etag jade from cache
+457 verbose addNamed [ 'jade', '0.30.0' ]
+458 verbose addNamed [ '0.30.0', '0.30.0' ]
+459 silly lockFile d92616a5-jade-0-30-0 jade@0.30.0
+460 verbose lock jade@0.30.0 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\d92616a5-jade-0-30-0.lock
+461 http 304 https://registry.npmjs.org/jake
+462 silly registry.get cb [ 304,
+462 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+462 silly registry.get     etag: '"1IC925VKKI4OARNP02A0ECAT5"',
+462 silly registry.get     date: 'Sat, 25 May 2013 21:21:23 GMT',
+462 silly registry.get     'content-length': '0' } ]
+463 verbose etag jake from cache
+464 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\jade\0.30.0\package\package.json
+465 verbose addNamed [ 'jake', '0.5.15' ]
+466 verbose addNamed [ '0.5.15', '0.5.15' ]
+467 silly lockFile adc17c50-jake-0-5-15 jake@0.5.15
+468 verbose lock jake@0.5.15 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\adc17c50-jake-0-5-15.lock
+469 silly lockFile d92616a5-jade-0-30-0 jade@0.30.0
+470 silly lockFile 50c7aeb0-jade-latest jade@latest
+471 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\jake\0.5.15\package\package.json
+472 silly lockFile adc17c50-jake-0-5-15 jake@0.5.15
+473 silly lockFile 0436e129-jake-latest jake@latest
+474 http 200 https://registry.npmjs.org/fleck/-/fleck-0.5.1.tgz
+475 silly shasum updated bytes 10240
+476 info shasum 4d25e3c30eba2d8c0f3f0dae02554f0311ebf078
+476 info shasum C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516881065-0.13471391331404448\tmp.tgz
+477 verbose tar unpack C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516881065-0.13471391331404448\tmp.tgz
+478 silly lockFile df11cb1b-1065-0-13471391331404448-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516881065-0.13471391331404448\package
+479 verbose lock C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516881065-0.13471391331404448\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\df11cb1b-1065-0-13471391331404448-package.lock
+480 silly gunzTarPerm modes [ '755', '644' ]
+481 silly gunzTarPerm extractEntry package.json
+482 silly gunzTarPerm extractEntry Rakefile
+483 silly gunzTarPerm extractEntry README
+484 silly gunzTarPerm extractEntry public/javascripts/fleck.js
+485 silly gunzTarPerm extractEntry spec/javascripts/InflectionSpec.js
+486 silly gunzTarPerm extractEntry spec/javascripts/support/jasmine.yml
+487 silly gunzTarPerm extractEntry spec/javascripts/support/jasmine_config.rb
+488 silly gunzTarPerm extractEntry spec/javascripts/support/jasmine_runner.rb
+489 verbose read json C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516881065-0.13471391331404448\package\package.json
+490 silly lockFile df11cb1b-1065-0-13471391331404448-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516881065-0.13471391331404448\package
+491 verbose from cache C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516881065-0.13471391331404448\package\package.json
+492 verbose tar pack [ 'C:\\Users\\Paulo Henrique\\AppData\\Roaming\\npm-cache\\fleck\\0.5.1\\package.tgz',
+492 verbose tar pack   'C:\\Users\\PAULOH~1\\AppData\\Local\\Temp\\npm-3796\\1369516881065-0.13471391331404448\\package' ]
+493 verbose tarball C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package.tgz
+494 verbose folder C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516881065-0.13471391331404448\package
+495 silly lockFile 97d574bb-pm-cache-fleck-0-5-1-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package.tgz
+496 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\97d574bb-pm-cache-fleck-0-5-1-package-tgz.lock
+497 silly lockFile 97d574bb-pm-cache-fleck-0-5-1-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package.tgz
+498 silly lockFile 11a5f97e-ng-npm-cache-fleck-0-5-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package
+499 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\11a5f97e-ng-npm-cache-fleck-0-5-1-package.lock
+500 silly lockFile 11a5f97e-ng-npm-cache-fleck-0-5-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package
+501 verbose tar unpack C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package.tgz
+502 silly lockFile 11a5f97e-ng-npm-cache-fleck-0-5-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package
+503 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\11a5f97e-ng-npm-cache-fleck-0-5-1-package.lock
+504 silly gunzTarPerm modes [ '755', '644' ]
+505 silly gunzTarPerm extractEntry package.json
+506 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+507 silly gunzTarPerm extractEntry README
+508 silly gunzTarPerm modified mode [ 'README', 438, 420 ]
+509 silly gunzTarPerm extractEntry public/javascripts/fleck.js
+510 silly gunzTarPerm modified mode [ 'public/javascripts/fleck.js', 438, 420 ]
+511 silly gunzTarPerm extractEntry Rakefile
+512 silly gunzTarPerm modified mode [ 'Rakefile', 438, 420 ]
+513 silly gunzTarPerm extractEntry spec/javascripts/InflectionSpec.js
+514 silly gunzTarPerm modified mode [ 'spec/javascripts/InflectionSpec.js', 438, 420 ]
+515 silly gunzTarPerm extractEntry spec/javascripts/support/jasmine.yml
+516 silly gunzTarPerm modified mode [ 'spec/javascripts/support/jasmine.yml', 438, 420 ]
+517 silly gunzTarPerm extractEntry spec/javascripts/support/jasmine_config.rb
+518 silly gunzTarPerm modified mode [ 'spec/javascripts/support/jasmine_config.rb', 438, 420 ]
+519 silly gunzTarPerm extractEntry spec/javascripts/support/jasmine_runner.rb
+520 silly gunzTarPerm modified mode [ 'spec/javascripts/support/jasmine_runner.rb', 438, 420 ]
+521 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package\package.json
+522 silly lockFile 11a5f97e-ng-npm-cache-fleck-0-5-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package
+523 silly shasum updated bytes 5614
+524 info shasum 96a6ee845d2144ef4db8b597dba32913eb162f47
+524 info shasum C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package.tgz
+525 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package\package.json
+526 verbose chmod C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package.tgz 644
+527 silly chown skipping for windows C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fleck\0.5.1\package.tgz
+528 silly lockFile aae9cb45--npmjs-org-fleck-fleck-0-5-1-tgz https://registry.npmjs.org/fleck/-/fleck-0.5.1.tgz
+529 silly lockFile bddc979a-fleck-0-5-1 fleck@0.5.1
+530 http 200 https://github.com/alexferreira/commander.js/tarball/master
+531 verbose tar unpack C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516877839-0.7028526994399726\tmp.tgz
+532 silly lockFile f13dd958-77839-0-7028526994399726-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516877839-0.7028526994399726\package
+533 verbose lock C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516877839-0.7028526994399726\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\f13dd958-77839-0-7028526994399726-package.lock
+534 silly gunzTarPerm modes [ '755', '644' ]
+535 silly gunzTarPerm extractEntry
+536 silly gunzTarPerm modified mode [ '', 509, 493 ]
+537 silly gunzTarPerm extractEntry .gitignore
+538 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+539 silly gunzTarPerm extractEntry .npmignore
+540 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+541 silly gunzTarPerm extractEntry .travis.yml
+542 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+543 silly gunzTarPerm extractEntry History.md
+544 silly gunzTarPerm modified mode [ 'History.md', 436, 420 ]
+545 silly gunzTarPerm extractEntry Makefile
+546 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+547 silly gunzTarPerm extractEntry Readme.md
+548 silly gunzTarPerm modified mode [ 'Readme.md', 436, 420 ]
+549 silly gunzTarPerm extractEntry examples/
+550 silly gunzTarPerm modified mode [ 'examples/', 509, 493 ]
+551 silly gunzTarPerm extractEntry examples/bulk-input
+552 silly gunzTarPerm modified mode [ 'examples/bulk-input', 509, 493 ]
+553 silly gunzTarPerm extractEntry examples/choice
+554 silly gunzTarPerm modified mode [ 'examples/choice', 509, 493 ]
+555 silly gunzTarPerm extractEntry examples/coercion
+556 silly gunzTarPerm modified mode [ 'examples/coercion', 509, 493 ]
+557 silly gunzTarPerm extractEntry examples/confirm
+558 silly gunzTarPerm modified mode [ 'examples/confirm', 509, 493 ]
+559 silly gunzTarPerm extractEntry examples/custom-help
+560 silly gunzTarPerm modified mode [ 'examples/custom-help', 509, 493 ]
+561 silly gunzTarPerm extractEntry examples/defaults
+562 silly gunzTarPerm modified mode [ 'examples/defaults', 509, 493 ]
+563 silly gunzTarPerm extractEntry examples/deploy
+564 silly gunzTarPerm modified mode [ 'examples/deploy', 509, 493 ]
+565 silly gunzTarPerm extractEntry examples/express
+566 silly gunzTarPerm modified mode [ 'examples/express', 509, 493 ]
+567 silly gunzTarPerm extractEntry examples/help
+568 silly gunzTarPerm modified mode [ 'examples/help', 509, 493 ]
+569 silly gunzTarPerm extractEntry examples/input
+570 silly gunzTarPerm modified mode [ 'examples/input', 509, 493 ]
+571 silly gunzTarPerm extractEntry examples/password
+572 silly gunzTarPerm modified mode [ 'examples/password', 509, 493 ]
+573 silly gunzTarPerm extractEntry examples/pizza
+574 silly gunzTarPerm modified mode [ 'examples/pizza', 509, 493 ]
+575 silly gunzTarPerm extractEntry examples/pm
+576 silly gunzTarPerm modified mode [ 'examples/pm', 509, 493 ]
+577 silly gunzTarPerm extractEntry examples/pm-install
+578 silly gunzTarPerm modified mode [ 'examples/pm-install', 509, 493 ]
+579 silly gunzTarPerm extractEntry index.js
+580 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+581 silly gunzTarPerm extractEntry package.json
+582 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+583 silly gunzTarPerm extractEntry test/
+584 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+585 silly gunzTarPerm extractEntry test/run
+586 silly gunzTarPerm modified mode [ 'test/run', 509, 493 ]
+587 silly gunzTarPerm extractEntry test/test.literal.args.js
+588 silly gunzTarPerm modified mode [ 'test/test.literal.args.js', 436, 420 ]
+589 silly gunzTarPerm extractEntry test/test.options.args.optional.given.js
+590 silly gunzTarPerm modified mode [ 'test/test.options.args.optional.given.js', 436, 420 ]
+591 silly gunzTarPerm extractEntry test/test.options.args.optional.js
+592 silly gunzTarPerm modified mode [ 'test/test.options.args.optional.js', 436, 420 ]
+593 silly gunzTarPerm extractEntry test/test.options.bool.js
+594 silly gunzTarPerm modified mode [ 'test/test.options.bool.js', 436, 420 ]
+595 silly gunzTarPerm extractEntry test/test.options.bool.no.js
+596 silly gunzTarPerm modified mode [ 'test/test.options.bool.no.js', 436, 420 ]
+597 silly gunzTarPerm extractEntry test/test.options.bool.small.combined.js
+598 silly gunzTarPerm modified mode [ 'test/test.options.bool.small.combined.js', 436, 420 ]
+599 silly gunzTarPerm extractEntry test/test.options.bool.small.js
+600 silly gunzTarPerm modified mode [ 'test/test.options.bool.small.js', 436, 420 ]
+601 silly gunzTarPerm extractEntry test/test.options.camelcase.js
+602 silly gunzTarPerm modified mode [ 'test/test.options.camelcase.js', 436, 420 ]
+603 silly gunzTarPerm extractEntry test/test.options.coercion.js
+604 silly gunzTarPerm modified mode [ 'test/test.options.coercion.js', 436, 420 ]
+605 silly gunzTarPerm extractEntry test/test.options.commands.js
+606 silly gunzTarPerm modified mode [ 'test/test.options.commands.js', 436, 420 ]
+607 silly gunzTarPerm extractEntry test/test.options.defaults.given.js
+608 silly gunzTarPerm modified mode [ 'test/test.options.defaults.given.js', 436, 420 ]
+609 silly gunzTarPerm extractEntry test/test.options.defaults.js
+610 silly gunzTarPerm modified mode [ 'test/test.options.defaults.js', 436, 420 ]
+611 silly gunzTarPerm extractEntry test/test.options.equals.js
+612 silly gunzTarPerm modified mode [ 'test/test.options.equals.js', 436, 420 ]
+613 silly gunzTarPerm extractEntry test/test.options.large-only-with-value.js
+614 silly gunzTarPerm modified mode [ 'test/test.options.large-only-with-value.js', 436, 420 ]
+615 silly gunzTarPerm extractEntry test/test.options.large-only.js
+616 silly gunzTarPerm modified mode [ 'test/test.options.large-only.js', 436, 420 ]
+617 verbose read json C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516877839-0.7028526994399726\package\package.json
+618 silly lockFile f13dd958-77839-0-7028526994399726-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516877839-0.7028526994399726\package
+619 verbose from cache C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516877839-0.7028526994399726\package\package.json
+620 verbose tar pack [ 'C:\\Users\\Paulo Henrique\\AppData\\Roaming\\npm-cache\\commander\\1.1.1\\package.tgz',
+620 verbose tar pack   'C:\\Users\\PAULOH~1\\AppData\\Local\\Temp\\npm-3796\\1369516877839-0.7028526994399726\\package' ]
+621 verbose tarball C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package.tgz
+622 verbose folder C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516877839-0.7028526994399726\package
+623 silly lockFile 17d15b9e-ache-commander-1-1-1-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package.tgz
+624 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\17d15b9e-ache-commander-1-1-1-package-tgz.lock
+625 silly lockFile 17d15b9e-ache-commander-1-1-1-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package.tgz
+626 silly lockFile a6eb24ab-pm-cache-commander-1-1-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package
+627 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\a6eb24ab-pm-cache-commander-1-1-1-package.lock
+628 silly lockFile a6eb24ab-pm-cache-commander-1-1-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package
+629 verbose tar unpack C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package.tgz
+630 silly lockFile a6eb24ab-pm-cache-commander-1-1-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package
+631 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\a6eb24ab-pm-cache-commander-1-1-1-package.lock
+632 silly gunzTarPerm modes [ '755', '644' ]
+633 silly gunzTarPerm extractEntry package.json
+634 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+635 silly gunzTarPerm extractEntry index.js
+636 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+637 silly gunzTarPerm extractEntry History.md
+638 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+639 silly gunzTarPerm extractEntry Readme.md
+640 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+641 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package\package.json
+642 silly lockFile a6eb24ab-pm-cache-commander-1-1-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package
+643 silly shasum updated bytes 10594
+644 info shasum 8e894260f9a2183cf2e99869648dbb01d4ce1fc1
+644 info shasum C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package.tgz
+645 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package\package.json
+646 verbose chmod C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package.tgz 644
+647 silly chown skipping for windows C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\commander\1.1.1\package.tgz
+648 silly lockFile 70d7d29b-eira-commander-js-tarball-master https://github.com/alexferreira/commander.js/tarball/master
+649 http 200 https://registry.npmjs.org/rsvp-that-works/-/rsvp-that-works-1.2.0.tgz
+650 http 200 https://registry.npmjs.org/ejs
+651 silly registry.get cb [ 200,
+651 silly registry.get   { vary: 'Accept',
+651 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+651 silly registry.get     etag: '"DT5LS1KTP95C0LL6WWRMQ1M6U"',
+651 silly registry.get     date: 'Sat, 25 May 2013 21:21:24 GMT',
+651 silly registry.get     'content-type': 'application/json',
+651 silly registry.get     'content-length': '54086' } ]
+652 verbose addNamed [ 'ejs', '0.8.4' ]
+653 verbose addNamed [ '0.8.4', '0.8.4' ]
+654 silly lockFile d6b90ae9-ejs-0-8-4 ejs@0.8.4
+655 verbose lock ejs@0.8.4 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\d6b90ae9-ejs-0-8-4.lock
+656 silly lockFile 3daffd70-stry-npmjs-org-ejs-ejs-0-8-4-tgz https://registry.npmjs.org/ejs/-/ejs-0.8.4.tgz
+657 verbose lock https://registry.npmjs.org/ejs/-/ejs-0.8.4.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\3daffd70-stry-npmjs-org-ejs-ejs-0-8-4-tgz.lock
+658 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-0.8.4.tgz',
+658 verbose addRemoteTarball   '52e61755e5e97fbc5aeeb07df49a4e062bff30d5' ]
+659 info retry fetch attempt 1 at 18:21:39
+660 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516899387-0.9284430781845003\tmp.tgz
+661 http GET https://registry.npmjs.org/ejs/-/ejs-0.8.4.tgz
+662 http 200 https://registry.npmjs.org/fs-extra/-/fs-extra-0.6.1.tgz
+663 http 200 https://registry.npmjs.org/nodeunit
+664 silly registry.get cb [ 200,
+664 silly registry.get   { vary: 'Accept',
+664 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+664 silly registry.get     etag: '"E93GX8OFYJM9FUQ8QSOWEAJL"',
+664 silly registry.get     date: 'Sat, 25 May 2013 21:21:21 GMT',
+664 silly registry.get     'content-type': 'application/json',
+664 silly registry.get     'content-length': '137349' } ]
+665 verbose addNamed [ 'nodeunit', '0.8.0' ]
+666 verbose addNamed [ '0.8.0', '0.8.0' ]
+667 silly lockFile 586cbc5c-nodeunit-0-8-0 nodeunit@0.8.0
+668 verbose lock nodeunit@0.8.0 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\586cbc5c-nodeunit-0-8-0.lock
+669 silly lockFile 2aca2587--org-nodeunit-nodeunit-0-8-0-tgz https://registry.npmjs.org/nodeunit/-/nodeunit-0.8.0.tgz
+670 verbose lock https://registry.npmjs.org/nodeunit/-/nodeunit-0.8.0.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\2aca2587--org-nodeunit-nodeunit-0-8-0-tgz.lock
+671 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodeunit/-/nodeunit-0.8.0.tgz',
+671 verbose addRemoteTarball   '2fdd1029ba5692c72daa9ebd944f90fbedfcc1ba' ]
+672 info retry fetch attempt 1 at 18:21:45
+673 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516905184-0.36554557317867875\tmp.tgz
+674 http GET https://registry.npmjs.org/nodeunit/-/nodeunit-0.8.0.tgz
+675 silly shasum updated bytes 9091
+676 info shasum bb4d0918ef7f6414e1a135cd68ebeee825e96ad1
+676 info shasum C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882585-0.5496786842122674\tmp.tgz
+677 verbose tar unpack C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882585-0.5496786842122674\tmp.tgz
+678 silly lockFile 0312c1de-82585-0-5496786842122674-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882585-0.5496786842122674\package
+679 verbose lock C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882585-0.5496786842122674\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\0312c1de-82585-0-5496786842122674-package.lock
+680 silly gunzTarPerm modes [ '755', '644' ]
+681 silly gunzTarPerm extractEntry package.json
+682 silly gunzTarPerm extractEntry .npmignore
+683 silly gunzTarPerm extractEntry README.md
+684 silly gunzTarPerm extractEntry LICENSE
+685 silly gunzTarPerm extractEntry .travis.yml
+686 silly gunzTarPerm extractEntry CHANGELOG.md
+687 silly gunzTarPerm extractEntry lib/copy.js
+688 silly gunzTarPerm extractEntry lib/create.js
+689 silly gunzTarPerm extractEntry lib/index.js
+690 silly gunzTarPerm extractEntry lib/json.js
+691 silly gunzTarPerm extractEntry lib/mkdir.js
+692 silly gunzTarPerm extractEntry lib/output.js
+693 silly gunzTarPerm extractEntry lib/remove.js
+694 silly gunzTarPerm extractEntry test/copy.test.js
+695 silly gunzTarPerm extractEntry test/create.test.js
+696 silly gunzTarPerm extractEntry test/fs-integration.test.js
+697 silly gunzTarPerm extractEntry test/json.test.js
+698 silly gunzTarPerm extractEntry test/mkdir.test.js
+699 silly gunzTarPerm extractEntry test/output.test.js
+700 silly gunzTarPerm extractEntry test/read.test.js
+701 silly gunzTarPerm extractEntry test/remove.test.js
+702 silly gunzTarPerm extractEntry test/mocha.opts
+703 verbose read json C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882585-0.5496786842122674\package\package.json
+704 silly lockFile 0312c1de-82585-0-5496786842122674-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882585-0.5496786842122674\package
+705 verbose from cache C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882585-0.5496786842122674\package\package.json
+706 verbose tar pack [ 'C:\\Users\\Paulo Henrique\\AppData\\Roaming\\npm-cache\\fs-extra\\0.6.1\\package.tgz',
+706 verbose tar pack   'C:\\Users\\PAULOH~1\\AppData\\Local\\Temp\\npm-3796\\1369516882585-0.5496786842122674\\package' ]
+707 verbose tarball C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package.tgz
+708 verbose folder C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516882585-0.5496786842122674\package
+709 silly lockFile 173c95b4-cache-fs-extra-0-6-1-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package.tgz
+710 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\173c95b4-cache-fs-extra-0-6-1-package-tgz.lock
+711 silly lockFile 173c95b4-cache-fs-extra-0-6-1-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package.tgz
+712 silly lockFile 50e6687b-npm-cache-fs-extra-0-6-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package
+713 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\50e6687b-npm-cache-fs-extra-0-6-1-package.lock
+714 silly lockFile 50e6687b-npm-cache-fs-extra-0-6-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package
+715 verbose tar unpack C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package.tgz
+716 silly lockFile 50e6687b-npm-cache-fs-extra-0-6-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package
+717 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\50e6687b-npm-cache-fs-extra-0-6-1-package.lock
+718 silly gunzTarPerm modes [ '755', '644' ]
+719 silly gunzTarPerm extractEntry package.json
+720 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+721 silly gunzTarPerm extractEntry .npmignore
+722 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+723 silly gunzTarPerm extractEntry README.md
+724 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+725 silly gunzTarPerm extractEntry LICENSE
+726 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+727 silly gunzTarPerm extractEntry .travis.yml
+728 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+729 silly gunzTarPerm extractEntry CHANGELOG.md
+730 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+731 silly gunzTarPerm extractEntry lib/copy.js
+732 silly gunzTarPerm modified mode [ 'lib/copy.js', 438, 420 ]
+733 silly gunzTarPerm extractEntry lib/create.js
+734 silly gunzTarPerm modified mode [ 'lib/create.js', 438, 420 ]
+735 silly gunzTarPerm extractEntry lib/index.js
+736 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+737 silly gunzTarPerm extractEntry lib/json.js
+738 silly gunzTarPerm modified mode [ 'lib/json.js', 438, 420 ]
+739 silly gunzTarPerm extractEntry lib/mkdir.js
+740 silly gunzTarPerm modified mode [ 'lib/mkdir.js', 438, 420 ]
+741 silly gunzTarPerm extractEntry lib/output.js
+742 silly gunzTarPerm modified mode [ 'lib/output.js', 438, 420 ]
+743 silly gunzTarPerm extractEntry lib/remove.js
+744 silly gunzTarPerm modified mode [ 'lib/remove.js', 438, 420 ]
+745 silly gunzTarPerm extractEntry test/copy.test.js
+746 silly gunzTarPerm modified mode [ 'test/copy.test.js', 438, 420 ]
+747 silly gunzTarPerm extractEntry test/create.test.js
+748 silly gunzTarPerm modified mode [ 'test/create.test.js', 438, 420 ]
+749 silly gunzTarPerm extractEntry test/fs-integration.test.js
+750 silly gunzTarPerm modified mode [ 'test/fs-integration.test.js', 438, 420 ]
+751 silly gunzTarPerm extractEntry test/json.test.js
+752 silly gunzTarPerm modified mode [ 'test/json.test.js', 438, 420 ]
+753 silly gunzTarPerm extractEntry test/mkdir.test.js
+754 silly gunzTarPerm modified mode [ 'test/mkdir.test.js', 438, 420 ]
+755 silly gunzTarPerm extractEntry test/output.test.js
+756 silly gunzTarPerm modified mode [ 'test/output.test.js', 438, 420 ]
+757 silly gunzTarPerm extractEntry test/read.test.js
+758 silly gunzTarPerm modified mode [ 'test/read.test.js', 438, 420 ]
+759 silly gunzTarPerm extractEntry test/remove.test.js
+760 silly gunzTarPerm modified mode [ 'test/remove.test.js', 438, 420 ]
+761 silly gunzTarPerm extractEntry test/mocha.opts
+762 silly gunzTarPerm modified mode [ 'test/mocha.opts', 438, 420 ]
+763 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package\package.json
+764 silly lockFile 50e6687b-npm-cache-fs-extra-0-6-1-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package
+765 silly shasum updated bytes 8970
+766 info shasum c20471ed050b6a9f27b3603c70ecfe80b25ee456
+766 info shasum C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package.tgz
+767 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package\package.json
+768 verbose chmod C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package.tgz 644
+769 silly chown skipping for windows C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\fs-extra\0.6.1\package.tgz
+770 silly lockFile b5c4a2c7--org-fs-extra-fs-extra-0-6-1-tgz https://registry.npmjs.org/fs-extra/-/fs-extra-0.6.1.tgz
+771 silly lockFile afa365de-fs-extra-0-6-1 fs-extra@0.6.1
+772 http 200 https://registry.npmjs.org/cli-color/-/cli-color-0.2.2.tgz
+773 http 200 https://registry.npmjs.org/ejs/-/ejs-0.8.4.tgz
+774 silly shasum updated bytes 11785
+775 info shasum 2220dcbd5e8410e15c435946b6c8daa22e076741
+775 info shasum C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516883852-0.7778162395115942\tmp.tgz
+776 verbose tar unpack C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516883852-0.7778162395115942\tmp.tgz
+777 silly lockFile 6c600a47-83852-0-7778162395115942-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516883852-0.7778162395115942\package
+778 verbose lock C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516883852-0.7778162395115942\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\6c600a47-83852-0-7778162395115942-package.lock
+779 silly gunzTarPerm modes [ '755', '644' ]
+780 silly gunzTarPerm extractEntry package.json
+781 silly gunzTarPerm extractEntry .npmignore
+782 silly gunzTarPerm extractEntry README.md
+783 silly gunzTarPerm extractEntry LICENCE
+784 silly gunzTarPerm extractEntry lib/_xterm-colors.js
+785 silly gunzTarPerm extractEntry lib/_xterm-match.js
+786 silly gunzTarPerm extractEntry lib/index.js
+787 silly gunzTarPerm extractEntry lib/throbber.js
+788 silly gunzTarPerm extractEntry lib/trim.js
+789 silly gunzTarPerm extractEntry .lint
+790 silly gunzTarPerm extractEntry .travis.yml
+791 silly gunzTarPerm extractEntry Makefile
+792 silly gunzTarPerm extractEntry bin/generate-color-images
+793 silly gunzTarPerm extractEntry CHANGES
+794 silly gunzTarPerm extractEntry test/_xterm-colors.js
+795 silly gunzTarPerm extractEntry test/_xterm-match.js
+796 silly gunzTarPerm extractEntry test/index.js
+797 silly gunzTarPerm extractEntry test/throbber.js
+798 silly gunzTarPerm extractEntry test/trim.js
+799 silly gunzTarPerm extractEntry test/__playground/throbber.formatted.js
+800 silly gunzTarPerm extractEntry test/__playground/throbber.js
+801 verbose read json C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516883852-0.7778162395115942\package\package.json
+802 silly lockFile 6c600a47-83852-0-7778162395115942-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516883852-0.7778162395115942\package
+803 verbose from cache C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516883852-0.7778162395115942\package\package.json
+804 verbose tar pack [ 'C:\\Users\\Paulo Henrique\\AppData\\Roaming\\npm-cache\\cli-color\\0.2.2\\package.tgz',
+804 verbose tar pack   'C:\\Users\\PAULOH~1\\AppData\\Local\\Temp\\npm-3796\\1369516883852-0.7778162395115942\\package' ]
+805 verbose tarball C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package.tgz
+806 verbose folder C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516883852-0.7778162395115942\package
+807 silly lockFile d0b2ff2a-ache-cli-color-0-2-2-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package.tgz
+808 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\d0b2ff2a-ache-cli-color-0-2-2-package-tgz.lock
+809 silly lockFile d0b2ff2a-ache-cli-color-0-2-2-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package.tgz
+810 silly lockFile 1d119286-pm-cache-cli-color-0-2-2-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package
+811 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\1d119286-pm-cache-cli-color-0-2-2-package.lock
+812 silly lockFile 1d119286-pm-cache-cli-color-0-2-2-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package
+813 verbose tar unpack C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package.tgz
+814 silly lockFile 1d119286-pm-cache-cli-color-0-2-2-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package
+815 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\1d119286-pm-cache-cli-color-0-2-2-package.lock
+816 silly gunzTarPerm modes [ '755', '644' ]
+817 silly gunzTarPerm extractEntry package.json
+818 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+819 silly gunzTarPerm extractEntry .npmignore
+820 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+821 silly gunzTarPerm extractEntry README.md
+822 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+823 silly gunzTarPerm extractEntry LICENCE
+824 silly gunzTarPerm modified mode [ 'LICENCE', 438, 420 ]
+825 silly gunzTarPerm extractEntry lib/index.js
+826 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+827 silly gunzTarPerm extractEntry lib/throbber.js
+828 silly gunzTarPerm modified mode [ 'lib/throbber.js', 438, 420 ]
+829 silly gunzTarPerm extractEntry lib/trim.js
+830 silly gunzTarPerm modified mode [ 'lib/trim.js', 438, 420 ]
+831 silly gunzTarPerm extractEntry lib/_xterm-colors.js
+832 silly gunzTarPerm modified mode [ 'lib/_xterm-colors.js', 438, 420 ]
+833 silly gunzTarPerm extractEntry lib/_xterm-match.js
+834 silly gunzTarPerm modified mode [ 'lib/_xterm-match.js', 438, 420 ]
+835 silly gunzTarPerm extractEntry .lint
+836 silly gunzTarPerm modified mode [ '.lint', 438, 420 ]
+837 silly gunzTarPerm extractEntry .travis.yml
+838 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+839 silly gunzTarPerm extractEntry Makefile
+840 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+841 silly gunzTarPerm extractEntry bin/generate-color-images
+842 silly gunzTarPerm modified mode [ 'bin/generate-color-images', 438, 420 ]
+843 silly gunzTarPerm extractEntry CHANGES
+844 silly gunzTarPerm modified mode [ 'CHANGES', 438, 420 ]
+845 silly gunzTarPerm extractEntry test/index.js
+846 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+847 silly gunzTarPerm extractEntry test/throbber.js
+848 silly gunzTarPerm modified mode [ 'test/throbber.js', 438, 420 ]
+849 silly gunzTarPerm extractEntry test/trim.js
+850 silly gunzTarPerm modified mode [ 'test/trim.js', 438, 420 ]
+851 silly gunzTarPerm extractEntry test/_xterm-colors.js
+852 silly gunzTarPerm modified mode [ 'test/_xterm-colors.js', 438, 420 ]
+853 silly gunzTarPerm extractEntry test/_xterm-match.js
+854 silly gunzTarPerm modified mode [ 'test/_xterm-match.js', 438, 420 ]
+855 silly gunzTarPerm extractEntry test/__playground/throbber.formatted.js
+856 silly gunzTarPerm modified mode [ 'test/__playground/throbber.formatted.js', 438, 420 ]
+857 silly gunzTarPerm extractEntry test/__playground/throbber.js
+858 silly gunzTarPerm modified mode [ 'test/__playground/throbber.js', 438, 420 ]
+859 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package\package.json
+860 silly lockFile 1d119286-pm-cache-cli-color-0-2-2-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package
+861 silly shasum updated bytes 11666
+862 info shasum e6fe6c8f9d254d43695ab8a4435c5a7b069dcf02
+862 info shasum C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package.tgz
+863 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package\package.json
+864 verbose chmod C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package.tgz 644
+865 silly chown skipping for windows C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\cli-color\0.2.2\package.tgz
+866 silly lockFile 14a6cb30-rg-cli-color-cli-color-0-2-2-tgz https://registry.npmjs.org/cli-color/-/cli-color-0.2.2.tgz
+867 silly lockFile 39acd334-cli-color-0-2-2 cli-color@0.2.2
+868 http 200 https://registry.npmjs.org/express
+869 silly registry.get cb [ 200,
+869 silly registry.get   { vary: 'Accept',
+869 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+869 silly registry.get     etag: '"5SO44HUWWLNP7XHI9XYN40CVB"',
+869 silly registry.get     date: 'Sat, 25 May 2013 21:21:24 GMT',
+869 silly registry.get     'content-type': 'application/json',
+869 silly registry.get     'content-length': '346013' } ]
+870 verbose addNamed [ 'express', '3.2.5' ]
+871 verbose addNamed [ '3.2.5', '3.2.5' ]
+872 silly lockFile 8e894118-express-3-2-5 express@3.2.5
+873 verbose lock express@3.2.5 C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\8e894118-express-3-2-5.lock
+874 silly lockFile eb57743a-js-org-express-express-3-2-5-tgz https://registry.npmjs.org/express/-/express-3.2.5.tgz
+875 verbose lock https://registry.npmjs.org/express/-/express-3.2.5.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\eb57743a-js-org-express-express-3-2-5-tgz.lock
+876 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.2.5.tgz',
+876 verbose addRemoteTarball   'd2c86134d9fa1573b8004d23c6dc0d50bc8efe20' ]
+877 info retry fetch attempt 1 at 18:21:55
+878 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516915030-0.285220444900915\tmp.tgz
+879 http GET https://registry.npmjs.org/express/-/express-3.2.5.tgz
+880 silly shasum updated bytes 14745
+881 info shasum 52e61755e5e97fbc5aeeb07df49a4e062bff30d5
+881 info shasum C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516899387-0.9284430781845003\tmp.tgz
+882 verbose tar unpack C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516899387-0.9284430781845003\tmp.tgz
+883 silly lockFile 34965bbe-99387-0-9284430781845003-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516899387-0.9284430781845003\package
+884 verbose lock C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516899387-0.9284430781845003\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\34965bbe-99387-0-9284430781845003-package.lock
+885 silly gunzTarPerm modes [ '755', '644' ]
+886 silly gunzTarPerm extractEntry package.json
+887 silly gunzTarPerm extractEntry .npmignore
+888 silly gunzTarPerm extractEntry benchmark.js
+889 silly gunzTarPerm extractEntry ejs.js
+890 silly gunzTarPerm extractEntry ejs.min.js
+891 silly gunzTarPerm extractEntry index.js
+892 silly gunzTarPerm extractEntry History.md
+893 silly gunzTarPerm extractEntry .travis.yml
+894 silly gunzTarPerm extractEntry .gitmodules
+895 silly gunzTarPerm extractEntry lib/ejs.js
+896 silly gunzTarPerm extractEntry lib/filters.js
+897 silly gunzTarPerm extractEntry lib/utils.js
+898 silly gunzTarPerm extractEntry Makefile
+899 silly gunzTarPerm extractEntry examples/functions.js
+900 silly gunzTarPerm extractEntry examples/list.js
+901 silly gunzTarPerm extractEntry examples/client.html
+902 silly gunzTarPerm extractEntry examples/functions.ejs
+903 silly gunzTarPerm extractEntry examples/list.ejs
+904 silly gunzTarPerm extractEntry Readme.md
+905 silly gunzTarPerm extractEntry support/compile.js
+906 silly gunzTarPerm extractEntry test/ejs.js
+907 silly gunzTarPerm extractEntry test/fixtures/menu.ejs
+908 silly gunzTarPerm extractEntry test/fixtures/backslash.ejs
+909 silly gunzTarPerm extractEntry test/fixtures/comments.ejs
+910 silly gunzTarPerm extractEntry test/fixtures/comments.html
+911 silly gunzTarPerm extractEntry test/fixtures/double-quote.ejs
+912 silly gunzTarPerm extractEntry test/fixtures/double-quote.html
+913 silly gunzTarPerm extractEntry test/fixtures/error.ejs
+914 silly gunzTarPerm extractEntry test/fixtures/error.out
+915 silly gunzTarPerm extractEntry test/fixtures/fail.ejs
+916 silly gunzTarPerm extractEntry test/fixtures/include.css.ejs
+917 silly gunzTarPerm extractEntry test/fixtures/include.css.html
+918 silly gunzTarPerm extractEntry test/fixtures/include.ejs
+919 silly gunzTarPerm extractEntry test/fixtures/include.html
+920 silly gunzTarPerm extractEntry test/fixtures/includes/menu/item.ejs
+921 silly gunzTarPerm extractEntry test/fixtures/includes/menu-item.ejs
+922 silly gunzTarPerm extractEntry test/fixtures/backslash.html
+923 silly gunzTarPerm extractEntry test/fixtures/menu.html
+924 silly gunzTarPerm extractEntry test/fixtures/messed.ejs
+925 silly gunzTarPerm extractEntry test/fixtures/messed.html
+926 silly gunzTarPerm extractEntry test/fixtures/newlines.ejs
+927 silly gunzTarPerm extractEntry test/fixtures/newlines.html
+928 silly gunzTarPerm extractEntry test/fixtures/no.newlines.ejs
+929 silly gunzTarPerm extractEntry test/fixtures/no.newlines.html
+930 silly gunzTarPerm extractEntry test/fixtures/para.ejs
+931 silly gunzTarPerm extractEntry test/fixtures/pet.ejs
+932 silly gunzTarPerm extractEntry test/fixtures/single-quote.ejs
+933 silly gunzTarPerm extractEntry test/fixtures/single-quote.html
+934 silly gunzTarPerm extractEntry test/fixtures/style.css
+935 silly gunzTarPerm extractEntry test/fixtures/user.ejs
+936 verbose read json C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516899387-0.9284430781845003\package\package.json
+937 silly lockFile 34965bbe-99387-0-9284430781845003-package C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516899387-0.9284430781845003\package
+938 verbose from cache C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516899387-0.9284430781845003\package\package.json
+939 verbose tar pack [ 'C:\\Users\\Paulo Henrique\\AppData\\Roaming\\npm-cache\\ejs\\0.8.4\\package.tgz',
+939 verbose tar pack   'C:\\Users\\PAULOH~1\\AppData\\Local\\Temp\\npm-3796\\1369516899387-0.9284430781845003\\package' ]
+940 verbose tarball C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package.tgz
+941 verbose folder C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516899387-0.9284430781845003\package
+942 silly lockFile 59217942--npm-cache-ejs-0-8-4-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package.tgz
+943 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package.tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\59217942--npm-cache-ejs-0-8-4-package-tgz.lock
+944 silly lockFile 59217942--npm-cache-ejs-0-8-4-package-tgz C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package.tgz
+945 silly lockFile 53677e67-ming-npm-cache-ejs-0-8-4-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package
+946 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\53677e67-ming-npm-cache-ejs-0-8-4-package.lock
+947 silly lockFile 53677e67-ming-npm-cache-ejs-0-8-4-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package
+948 verbose tar unpack C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package.tgz
+949 silly lockFile 53677e67-ming-npm-cache-ejs-0-8-4-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package
+950 verbose lock C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\53677e67-ming-npm-cache-ejs-0-8-4-package.lock
+951 silly gunzTarPerm modes [ '755', '644' ]
+952 silly gunzTarPerm extractEntry package.json
+953 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+954 silly gunzTarPerm extractEntry .npmignore
+955 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+956 silly gunzTarPerm extractEntry benchmark.js
+957 silly gunzTarPerm modified mode [ 'benchmark.js', 438, 420 ]
+958 silly gunzTarPerm extractEntry ejs.js
+959 silly gunzTarPerm modified mode [ 'ejs.js', 438, 420 ]
+960 silly gunzTarPerm extractEntry ejs.min.js
+961 silly gunzTarPerm modified mode [ 'ejs.min.js', 438, 420 ]
+962 silly gunzTarPerm extractEntry index.js
+963 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+964 silly gunzTarPerm extractEntry History.md
+965 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+966 silly gunzTarPerm extractEntry .travis.yml
+967 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+968 silly gunzTarPerm extractEntry .gitmodules
+969 silly gunzTarPerm modified mode [ '.gitmodules', 438, 420 ]
+970 silly gunzTarPerm extractEntry lib/ejs.js
+971 silly gunzTarPerm modified mode [ 'lib/ejs.js', 438, 420 ]
+972 silly gunzTarPerm extractEntry lib/filters.js
+973 silly gunzTarPerm modified mode [ 'lib/filters.js', 438, 420 ]
+974 silly gunzTarPerm extractEntry lib/utils.js
+975 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+976 silly gunzTarPerm extractEntry Makefile
+977 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+978 silly gunzTarPerm extractEntry examples/functions.js
+979 silly gunzTarPerm modified mode [ 'examples/functions.js', 438, 420 ]
+980 silly gunzTarPerm extractEntry examples/list.js
+981 silly gunzTarPerm modified mode [ 'examples/list.js', 438, 420 ]
+982 silly gunzTarPerm extractEntry examples/client.html
+983 silly gunzTarPerm modified mode [ 'examples/client.html', 438, 420 ]
+984 silly gunzTarPerm extractEntry examples/functions.ejs
+985 silly gunzTarPerm modified mode [ 'examples/functions.ejs', 438, 420 ]
+986 silly gunzTarPerm extractEntry examples/list.ejs
+987 silly gunzTarPerm modified mode [ 'examples/list.ejs', 438, 420 ]
+988 silly gunzTarPerm extractEntry Readme.md
+989 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+990 silly gunzTarPerm extractEntry support/compile.js
+991 silly gunzTarPerm modified mode [ 'support/compile.js', 438, 420 ]
+992 silly gunzTarPerm extractEntry test/ejs.js
+993 silly gunzTarPerm modified mode [ 'test/ejs.js', 438, 420 ]
+994 silly gunzTarPerm extractEntry test/fixtures/menu.ejs
+995 silly gunzTarPerm modified mode [ 'test/fixtures/menu.ejs', 438, 420 ]
+996 silly gunzTarPerm extractEntry test/fixtures/backslash.ejs
+997 silly gunzTarPerm modified mode [ 'test/fixtures/backslash.ejs', 438, 420 ]
+998 silly gunzTarPerm extractEntry test/fixtures/comments.ejs
+999 silly gunzTarPerm modified mode [ 'test/fixtures/comments.ejs', 438, 420 ]
+1000 silly gunzTarPerm extractEntry test/fixtures/comments.html
+1001 silly gunzTarPerm modified mode [ 'test/fixtures/comments.html', 438, 420 ]
+1002 silly gunzTarPerm extractEntry test/fixtures/double-quote.ejs
+1003 silly gunzTarPerm modified mode [ 'test/fixtures/double-quote.ejs', 438, 420 ]
+1004 silly gunzTarPerm extractEntry test/fixtures/double-quote.html
+1005 silly gunzTarPerm modified mode [ 'test/fixtures/double-quote.html', 438, 420 ]
+1006 silly gunzTarPerm extractEntry test/fixtures/error.ejs
+1007 silly gunzTarPerm modified mode [ 'test/fixtures/error.ejs', 438, 420 ]
+1008 silly gunzTarPerm extractEntry test/fixtures/error.out
+1009 silly gunzTarPerm modified mode [ 'test/fixtures/error.out', 438, 420 ]
+1010 silly gunzTarPerm extractEntry test/fixtures/fail.ejs
+1011 silly gunzTarPerm modified mode [ 'test/fixtures/fail.ejs', 438, 420 ]
+1012 silly gunzTarPerm extractEntry test/fixtures/include.css.ejs
+1013 silly gunzTarPerm modified mode [ 'test/fixtures/include.css.ejs', 438, 420 ]
+1014 silly gunzTarPerm extractEntry test/fixtures/include.css.html
+1015 silly gunzTarPerm modified mode [ 'test/fixtures/include.css.html', 438, 420 ]
+1016 silly gunzTarPerm extractEntry test/fixtures/include.ejs
+1017 silly gunzTarPerm modified mode [ 'test/fixtures/include.ejs', 438, 420 ]
+1018 silly gunzTarPerm extractEntry test/fixtures/include.html
+1019 silly gunzTarPerm modified mode [ 'test/fixtures/include.html', 438, 420 ]
+1020 silly gunzTarPerm extractEntry test/fixtures/includes/menu/item.ejs
+1021 silly gunzTarPerm modified mode [ 'test/fixtures/includes/menu/item.ejs', 438, 420 ]
+1022 silly gunzTarPerm extractEntry test/fixtures/includes/menu-item.ejs
+1023 silly gunzTarPerm modified mode [ 'test/fixtures/includes/menu-item.ejs', 438, 420 ]
+1024 silly gunzTarPerm extractEntry test/fixtures/backslash.html
+1025 silly gunzTarPerm modified mode [ 'test/fixtures/backslash.html', 438, 420 ]
+1026 silly gunzTarPerm extractEntry test/fixtures/menu.html
+1027 silly gunzTarPerm modified mode [ 'test/fixtures/menu.html', 438, 420 ]
+1028 silly gunzTarPerm extractEntry test/fixtures/messed.ejs
+1029 silly gunzTarPerm modified mode [ 'test/fixtures/messed.ejs', 438, 420 ]
+1030 silly gunzTarPerm extractEntry test/fixtures/messed.html
+1031 silly gunzTarPerm modified mode [ 'test/fixtures/messed.html', 438, 420 ]
+1032 silly gunzTarPerm extractEntry test/fixtures/newlines.ejs
+1033 silly gunzTarPerm modified mode [ 'test/fixtures/newlines.ejs', 438, 420 ]
+1034 silly gunzTarPerm extractEntry test/fixtures/newlines.html
+1035 silly gunzTarPerm modified mode [ 'test/fixtures/newlines.html', 438, 420 ]
+1036 silly gunzTarPerm extractEntry test/fixtures/no.newlines.ejs
+1037 silly gunzTarPerm modified mode [ 'test/fixtures/no.newlines.ejs', 438, 420 ]
+1038 silly gunzTarPerm extractEntry test/fixtures/no.newlines.html
+1039 silly gunzTarPerm modified mode [ 'test/fixtures/no.newlines.html', 438, 420 ]
+1040 silly gunzTarPerm extractEntry test/fixtures/para.ejs
+1041 silly gunzTarPerm modified mode [ 'test/fixtures/para.ejs', 438, 420 ]
+1042 silly gunzTarPerm extractEntry test/fixtures/pet.ejs
+1043 silly gunzTarPerm modified mode [ 'test/fixtures/pet.ejs', 438, 420 ]
+1044 silly gunzTarPerm extractEntry test/fixtures/single-quote.ejs
+1045 silly gunzTarPerm modified mode [ 'test/fixtures/single-quote.ejs', 438, 420 ]
+1046 silly gunzTarPerm extractEntry test/fixtures/single-quote.html
+1047 silly gunzTarPerm modified mode [ 'test/fixtures/single-quote.html', 438, 420 ]
+1048 silly gunzTarPerm extractEntry test/fixtures/style.css
+1049 silly gunzTarPerm modified mode [ 'test/fixtures/style.css', 438, 420 ]
+1050 silly gunzTarPerm extractEntry test/fixtures/user.ejs
+1051 silly gunzTarPerm modified mode [ 'test/fixtures/user.ejs', 438, 420 ]
+1052 verbose read json C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package\package.json
+1053 silly lockFile 53677e67-ming-npm-cache-ejs-0-8-4-package C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package
+1054 silly shasum updated bytes 14694
+1055 info shasum 879eaff69948c2f8baf5d23063b4c951ca2ca466
+1055 info shasum C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package.tgz
+1056 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package\package.json
+1057 verbose chmod C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package.tgz 644
+1058 silly chown skipping for windows C:\Users\Paulo Henrique\AppData\Roaming\npm-cache\ejs\0.8.4\package.tgz
+1059 silly lockFile 3daffd70-stry-npmjs-org-ejs-ejs-0-8-4-tgz https://registry.npmjs.org/ejs/-/ejs-0.8.4.tgz
+1060 silly lockFile d6b90ae9-ejs-0-8-4 ejs@0.8.4
+1061 silly lockFile 171e9c95-ejs-latest ejs@latest
+1062 http 200 https://registry.npmjs.org/nodeunit/-/nodeunit-0.8.0.tgz
+1063 http 408 https://registry.npmjs.org/express/-/express-3.2.5.tgz
+1064 error fetch failed https://registry.npmjs.org/express/-/express-3.2.5.tgz
+1065 info retry will retry, error on last attempt: Error: 408 Request Time-out
+1066 info retry fetch attempt 2 at 18:22:43
+1067 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516915030-0.285220444900915\tmp.tgz
+1068 http GET https://registry.npmjs.org/express/-/express-3.2.5.tgz
+1069 error fetch failed https://registry.npmjs.org/express/-/express-3.2.5.tgz
+1070 info retry will retry, error on last attempt: Error: socket hang up
+1071 info retry fetch attempt 3 at 18:24:02
+1072 verbose fetch to= C:\Users\PAULOH~1\AppData\Local\Temp\npm-3796\1369516915030-0.285220444900915\tmp.tgz
+1073 http GET https://registry.npmjs.org/express/-/express-3.2.5.tgz
+1074 error fetch failed https://registry.npmjs.org/express/-/express-3.2.5.tgz
+1075 silly lockFile eb57743a-js-org-express-express-3-2-5-tgz https://registry.npmjs.org/express/-/express-3.2.5.tgz
+1076 silly lockFile 8e894118-express-3-2-5 express@3.2.5
+1077 silly lockFile c30a01ab-express-latest express@latest
+1078 verbose about to build C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen
+1079 info C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen unbuild
+1080 verbose from cache C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules\restgen\package.json
+1081 info preuninstall restgen@1.0.1
+1082 info uninstall restgen@1.0.1
+1083 verbose true,C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules,C:\Users\Paulo Henrique\AppData\Roaming\npm\node_modules unbuild restgen@1.0.1
+1084 verbose C:\Users\Paulo Henrique\AppData\Roaming\npm,[object Object] binRoot
+1085 info postuninstall restgen@1.0.1
+1086 error Error: socket hang up
+1086 error     at createHangUpError (http.js:1253:15)
+1086 error     at CleartextStream.socketCloseListener (http.js:1304:23)
+1086 error     at CleartextStream.EventEmitter.emit (events.js:115:20)
+1086 error     at SecurePair.destroy (tls.js:808:22)
+1086 error     at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+1086 error  { [Error: socket hang up] code: 'ECONNRESET' }
+1087 error You may report this log at:
+1087 error     <http://github.com/isaacs/npm/issues>
+1087 error or email it to:
+1087 error     <npm-@googlegroups.com>
+1088 error System Windows_NT 6.2.9200
+1089 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "restgen" "-g"
+1090 error cwd D:\Projetos\frontend\auth
+1091 error node -v v0.8.2
+1092 error npm -v 1.1.36
+1093 error code ECONNRESET
+1094 error message socket hang up
+1095 verbose exit [ 1, true ]
